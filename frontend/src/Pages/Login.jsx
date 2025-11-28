@@ -28,7 +28,7 @@ const Login = () => {
         };
 
         try {
-            const url = 'http://localhost:3000/auth/login';
+            const url = 'https://awesome-authentication.vercel.app/auth/login';
             const res = await fetch(url, {
                 method: 'POST',
                 headers: {
